@@ -1,0 +1,161 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url('/src/images/home.png');
+    background-size: cover;
+}
+.cab{
+    background-color: rgba(13, 15, 26, 0.8);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(238, 205, 248);
+}
+.content{
+    background-color: rgba(13, 15, 26, 0.8);
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+    color: whitesmoke;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+}
+.nav {
+    display: flex;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+    padding: 15px;
+}
+h1{
+    padding: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+/*Listar*/
+.row .top-list{
+    width: 100%;
+    overflow: hidden;
+}
+.top-list .title-content{
+    float: left;
+    color: whitesmoke;
+    padding: 10px 16px;
+    font-size: 17px;
+}
+.top-list .top-list-right{
+    float: right;
+    padding: 10px 5px 5px 0;
+}
+.table-list{
+    height: 6vh;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.table-list .list-head .list-head-content{
+    background-color: black;
+    border: 1px solid rgb(61, 24, 24);
+    border-radius: 10px;
+}
+.table-list .list-head .list-body{
+    height: 3vh;
+    padding: 20px;
+}
+.list-body-content a{
+    height: 2vh;
+    display: inline-block;
+    width: 30%;
+}
+
+/*Paginação*/
+.content-pagination{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination{
+    display: inline-block;
+    font-size: 15px;
+}
+.pagination a{
+    color: aliceblue;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active{
+    background-color: darkred;
+    color: blue;
+}
+.pagination a:hover:not(.active){
+    background-color: rgba(13, 15, 26, 0.9);
+    transition: background-color .3s;
+}
+
+/*Botoes*/
+.btn-success{
+    background-color: rgba(0, 0, 0, .5);
+    color: whitesmoke;
+    border: 2px solid crimson;
+    border-radius: 0 6px 0 6px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn-success:hover{
+    background-color: rgba(199, 54, 54, 0.6);
+    transition: background-color .3s;    
+}
+.btn-vis{
+    background-color: rgba(72, 10, 245, 0.7);
+    height: 4vh;
+    width: 30%;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: aliceblue;
+    margin: auto 5px;
+}
+.btn-vis:hover{
+    background-color: rgba(105, 136, 201, 0.6);
+    transition: background-color .3s;
+}
+
+
+.btn-edit{
+    background-color: rgba(196, 120, 21, 0.5);
+    height: 4vh;
+    width: 30%;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: aliceblue;
+    margin: auto 5px;
+}
+.btn-edit:hover{
+    background-color: rgba(221, 193, 116, 0.6);
+    transition: background-color .3s;
+}
+
+
+.btn-delete{
+    background-color: rgba(199, 54, 54, 0.6);
+    height: 4vh;
+    width: 30%;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: aliceblue;
+    margin: auto 5px;
+}
+.btn-delete:hover{
+    background-color: rgba(173, 111, 111, 0.6);
+    transition: background-color .3s;
+}
